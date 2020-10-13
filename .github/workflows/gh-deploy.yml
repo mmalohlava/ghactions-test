@@ -23,3 +23,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Deploy MkDocs
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

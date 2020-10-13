@@ -18,7 +18,6 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-  - markdown_blockdiag
   
 
 nav:
